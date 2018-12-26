@@ -9,8 +9,8 @@ class MyHomePage extends StatefulWidget {
   @override
   _MyHomePageState createState() => new _MyHomePageState();
 }
-class _MyHomePageState extends State<MyHomePage> {
 
+class _MyHomePageState extends State<MyHomePage> {
   final Controller _controller = Controller();
 
   @override
@@ -33,12 +33,12 @@ class _MyHomePageState extends State<MyHomePage> {
             Container(
               padding: EdgeInsets.all(20.0),
               child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: <Widget>[
-              createDecreaseButton(),
-              createIncreaseButton()
-              ],
-            ),
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: <Widget>[
+                  createDecreaseButton(),
+                  createIncreaseButton()
+                ],
+              ),
             )
           ],
         ),
@@ -48,21 +48,21 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Widget createDecreaseButton() {
     return FloatingActionButton(
-      onPressed: () {
-        setState(() {
-          _controller.model.decrementCounter();
-        });
-      },
-      child: Icon(Icons.remove));
+        onPressed: () {
+          setState(() {
+            _controller.model.decrementCounter();
+          });
+        },
+        child: Icon(Icons.remove));
   }
 
   Widget createIncreaseButton() {
     return FloatingActionButton(
-      onPressed: () {
-        setState(() {
-          _controller.model.incrementCounter();
-        });
-      },
-      child: Icon(Icons.add));
+        onPressed: () {
+          setState(() {
+            _controller.model.incrementCounter();
+          });
+        },
+        child: Icon(Icons.add));
   }
 }
