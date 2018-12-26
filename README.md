@@ -1,16 +1,15 @@
-# counter
+# Flutter MVC Counter
 
-A new Flutter project.
+## Description
 
-## Getting Started
+A simple, single-view mobile application that allows to increase and decrease the value displayed at the centre of the screen.
 
-This project is a starting point for a Flutter application.
+The mobile app is developed with the Flutter framework.
 
-A few resources to get you started if this is your first Flutter project:
+Structure of the project is separated with well-known and widely used MVC pattern.
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
+## Screens
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+![Screen 1](http://i.imgur.com/XiSsU33.png)
+
+![Screen 2](https://i.ibb.co/Nr31T3H/s2.png)
