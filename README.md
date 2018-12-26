@@ -9,7 +9,8 @@ The mobile app is developed with the Flutter framework.
 Structure of the project is separated with well-known and widely used MVC pattern.
 
 ## Screens
+<div style="display: flex; justify-content: space-around; max-height: 355.56px" >
+<img src="http://i.imgur.com/XiSsU33.png" alt="Screen 1" width="200"/>
 
-![Screen 1](http://i.imgur.com/XiSsU33.png)
-
-![Screen 2](https://i.ibb.co/Nr31T3H/s2.png)
+<img src="https://i.ibb.co/Nr31T3H/s2.png" alt="Screen 1" width="200"/>
+</div>
